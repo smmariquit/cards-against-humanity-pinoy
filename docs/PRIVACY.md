@@ -1,7 +1,7 @@
 # Privacy Policy
 
-**Last updated:** July 4, 2026  
-**Status:** In development — not yet published.
+**Last updated:** July 4, 2026 
+**Status:** In development: not yet published.
 
 CAH Pinoy is a party card game app under active development. When the app ships, its privacy policy will be published at [uplbtools.me/privacy](https://uplbtools.me/privacy).
 
