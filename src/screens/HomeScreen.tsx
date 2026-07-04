@@ -1,7 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Linking, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 const ACCENT = '#FACC15';
+const PRIVACY_URL = 'https://uplbtools.me/privacy';
+const TERMS_URL = 'https://uplbtools.me/terms';
 
 export function HomeScreen() {
   return (
@@ -14,6 +16,15 @@ export function HomeScreen() {
       </Text>
       <View style={styles.pill}>
         <Text style={styles.pillText}>Expo scaffold ready</Text>
+      </View>
+      <View style={styles.legalRow}>
+        <TouchableOpacity onPress={() => Linking.openURL(PRIVACY_URL)}>
+          <Text style={styles.legalLink}>Privacy</Text>
+        </TouchableOpacity>
+        <Text style={styles.legalSep}>·</Text>
+        <TouchableOpacity onPress={() => Linking.openURL(TERMS_URL)}>
+          <Text style={styles.legalLink}>Terms</Text>
+        </TouchableOpacity>
       </View>
     </View>
   );
@@ -61,5 +72,20 @@ const styles = StyleSheet.create({
     color: '#E4E4E7',
     fontSize: 14,
     fontWeight: '600',
+  },
+  legalRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 'auto',
+    paddingTop: 24,
+  },
+  legalLink: {
+    color: '#71717A',
+    fontSize: 13,
+  },
+  legalSep: {
+    color: '#52525B',
+    fontSize: 13,
+    marginHorizontal: 8,
   },
 });
