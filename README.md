@@ -1,4 +1,4 @@
-# Cards Against Humanity — Pinoy Edition (Mobile)
+# Cards Against Humanity: Pinoy Edition (Mobile)
 
 Unofficial mobile party card game inspired by the Cards Against Humanity format, localized for Filipino humor and culture.
 
@@ -34,7 +34,7 @@ src/
 - [x] Expo TypeScript scaffold
 - [ ] Core deck data model (black / white cards, expansions)
 - [ ] Local pass-and-play game loop
-- [ ] Pinoy card packs (Tagalog, Taglish — curated, original copy)
+- [ ] Pinoy card packs (Tagalog, Taglish: curated, original copy)
 - [ ] Dark theme UI, large readable text for party use
 - [ ] Share/export custom card packs (optional)
 
