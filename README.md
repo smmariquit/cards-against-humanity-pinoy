@@ -14,19 +14,19 @@ Unofficial mobile party card game inspired by the Cards Against Humanity format,
 
 ```bash
 npm install
-npm start          # Expo dev server
+npm start # Expo dev server
 npm run android
-npm run ios        # macOS + Xcode, or Expo Go
+npm run ios # macOS + Xcode, or Expo Go
 npm run web
-npx tsc --noEmit   # type check
+npx tsc --noEmit # type check
 ```
 
 ## Project layout
 
 ```
 src/
-├── domain/game/   # deck, rounds, scoring (pure logic)
-└── screens/       # React Native UI
+├── domain/game/ # deck, rounds, scoring (pure logic)
+└── screens/ # React Native UI
 ```
 
 ## Roadmap
